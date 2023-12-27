@@ -1,0 +1,11 @@
+<section class="vote" *ngIf="correctWinnerSelected" [@fadeOut]>
+  <h2>O que irá acontecer?</h2>
+  <div class="row">
+    <div class="column">
+      <button id="red" (click)="correctWinner()">Vitória do RED</button>
+    </div>
+    <div class="column">
+      <button id="med" (click)="wrongWinner()" #med>Vitória do MED</button>
+    </div>
+  </div>
+</section>

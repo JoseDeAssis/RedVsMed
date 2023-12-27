@@ -1,0 +1,23 @@
+.teams {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  background: linear-gradient(90deg, #000000 0%, #008aff 50%, #ff0e0e 50%, #000000 100%);
+}
+.teams h3 {
+  margin-bottom: 12px;
+}
+.teams .column {
+  padding: 0 10px;
+}
+.teams img {
+  width: 444px;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 768px) {
+  .teams h3 {
+    margin-bottom: 24px;
+  }
+}

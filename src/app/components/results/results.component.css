@@ -1,0 +1,23 @@
+.result {
+  position: fixed;
+  background: #000000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  opacity: 0;
+  transition: all 10s ease-out;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background: linear-gradient(45deg, #000000 0%, #008aff 100%);
+}
+.result.open {
+  opacity: 1;
+  visibility: visible;
+}
+.result h1 {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,10 @@
+<div class="page">
+  <app-header></app-header>
+  <app-rosters></app-rosters>
+  <app-survey-buttons (winnerPressed)="showWinner()"></app-survey-buttons>
+</div>
+<app-results
+  [openResult]="showCorrectWinner"
+  *ngIf="showCorrectWinner"
+  @fadeIn
+></app-results>

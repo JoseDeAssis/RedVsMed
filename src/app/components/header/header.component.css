@@ -1,0 +1,16 @@
+.intro {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+.intro h1 {
+  margin-bottom: 12px;
+}
+.intro h1 span {
+  font-size: 50%;
+  color: #ff0e0e;
+  margin: 0 4px;
+}
+.intro img {
+  width: 1000px;
+}
